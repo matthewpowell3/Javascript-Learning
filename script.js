@@ -53,3 +53,13 @@ name = 'John';
 
 console.log(name);
 console.log(newName);
+
+// There are 2 ways to get an empty box variable:
+
+let amount;
+
+let height = null;
+
+// OR
+
+let length = undefined;
