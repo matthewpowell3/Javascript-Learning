@@ -1,3 +1,5 @@
+// Lecture opne
+
 // Console.log()
 
 console.log('This program displays text and consists of a single command');
@@ -75,3 +77,11 @@ let height = null;
 // OR
 
 let length = undefined;
+
+// Lecture two
+
+// Export and bigger projects
+
+/* There may not be a limitation, but as the codebase of the program grows, the more important the structure becomes. Most projects are created by teams of programmers. If all development took place in one file, their life would be hell.
+
+In the last lecture, we looked at constants. Very often there are situations when a constant needs to be used in several places. To make that happen and avoid code duplication, we usually create a separate file, for example, constants.js, initialize constants there, and export them for use in other project files. */
