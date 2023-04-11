@@ -1,4 +1,4 @@
-// Lecture opne
+// Lecture one
 
 // Console.log()
 
@@ -88,7 +88,24 @@ In the last lecture, we looked at constants. Very often there are situations whe
 
 // importing
 
+/*Please note that the path can be absolute or relative.
+
+An absolute path starts at the root of the / filesystem on UNIX-like systems and is rarely used to import constants in javascript.
+
+A relative path usually starts with . or .. and includes only part of an absolute path.
+
+. - means that the file search should be started from the current directory
+
+.. - the file search will start one directory higher than the current one*/
+
 import { monthsSalary, isHappy } from './constants.js';
 
 console.log(`My months salary is $${monthsSalary}`);
 console.log(`I am happy and that is ${isHappy}`);
+
+// My Try
+
+import { isActive, driverAge } from './constants.js';
+
+console.log(`Is this button active ${isActive}`);
+console.log(`What is the dirvers age answer:${driverAge}`);
