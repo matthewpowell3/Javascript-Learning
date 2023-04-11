@@ -20,3 +20,11 @@ let isWinning = true;
 
 let car = 'MarkX';
 let time = '6:00PM';
+
+// Redefining
+
+/* Examples
+let greeting = 'Hello, world!';
+greeting = 'Hi';
+console.log(greeting);
+*/
