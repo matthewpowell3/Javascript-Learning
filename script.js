@@ -85,3 +85,10 @@ let length = undefined;
 /* There may not be a limitation, but as the codebase of the program grows, the more important the structure becomes. Most projects are created by teams of programmers. If all development took place in one file, their life would be hell.
 
 In the last lecture, we looked at constants. Very often there are situations when a constant needs to be used in several places. To make that happen and avoid code duplication, we usually create a separate file, for example, constants.js, initialize constants there, and export them for use in other project files. */
+
+// importing
+
+import { monthsSalary, isHappy } from './constants.js';
+
+console.log(`My months salary is $${monthsSalary}`);
+console.log(`I am happy and that is ${isHappy}`);
