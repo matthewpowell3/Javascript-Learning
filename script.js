@@ -10,6 +10,18 @@ Strings
 Boolean
 */
 
+// Booleans
+let isHoverable = true;
+let isClickable = false;
+
+// Strings
+let userName = 'Mark';
+let birthday = 'Apr 10, 2023';
+
+// Number
+let userAge = 14;
+let workTimes = 2 + ' years';
+
 // Variable
 
 /* Examples
