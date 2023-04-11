@@ -31,6 +31,18 @@ console.log(greeting);
 
 // Multiple variables to point to the same value.
 
+/* Examples
+let salary = 100;
+let oldSalary = salary;
+// both variables point to the same value
+console.log(salary); // 100
+console.log(oldSalary); // 100
+salary = 200000;
+// salary is 200000 and oldSalary is 100!
+console.log(salary); // 200000
+console.log(oldSalary); // 100
+*/
+
 let name = 'Matthew';
 let newName = name;
 
