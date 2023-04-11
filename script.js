@@ -28,3 +28,16 @@ let greeting = 'Hello, world!';
 greeting = 'Hi';
 console.log(greeting);
 */
+
+// Multiple variables to point to the same value.
+
+let name = 'Matthew';
+let newName = name;
+
+console.log(name);
+console.log(newName);
+
+name = 'John';
+
+console.log(name);
+console.log(newName);
