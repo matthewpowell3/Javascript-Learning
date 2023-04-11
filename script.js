@@ -12,5 +12,11 @@ Boolean
 
 // Variable
 
+/* Examples
+let greeting = 'Hello, world!';
+let salary = 100000;
+let isWinning = true;
+ */
+
 let car = 'MarkX';
 let time = '6:00PM';
