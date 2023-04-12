@@ -27,6 +27,8 @@ const person = {
   myRealAge: 14,
 };
 
+console.log(person);
+
 // Wrong way to group things
 let myRealName = 'Matthew';
 let myRealAge = 14;
