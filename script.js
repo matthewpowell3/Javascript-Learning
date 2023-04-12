@@ -42,3 +42,9 @@ console.log(person['myRealAge']);
 // Wrong way to group things
 let myRealName = 'Matthew';
 let myRealAge = 14;
+
+// Array
+
+// Empty Array
+let selectedColors = ['red','blue'];
+console.log(selectedColors[0])
