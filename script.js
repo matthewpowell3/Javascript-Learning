@@ -27,7 +27,17 @@ const person = {
   myRealAge: 14,
 };
 
+// Dot Notation
+
+person.myRealName = 'Mark';
+
 console.log(person.myRealName);
+
+// Bracket Notation
+
+person['myRealAge'] = 13;
+
+console.log(person['myRealAge']);
 
 // Wrong way to group things
 let myRealName = 'Matthew';
