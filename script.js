@@ -1,1 +1,3 @@
-console.log('Hello, world');
+// declare a variable
+let name;
+console.log(name);
