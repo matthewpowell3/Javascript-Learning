@@ -46,5 +46,35 @@ let myRealAge = 14;
 // Array
 
 // Empty Array
-let selectedColors = ['red','blue'];
-console.log(selectedColors[0])
+let selectedColors = ['red', 'blue'];
+// Add to array hard way
+selectedColors[2] = 'Pink';
+console.log(selectedColors[0]);
+
+// Array length properties how many elements in a array
+console.log(selectedColors.length);
+
+// Functions
+
+function greeting(name,lastName) {
+  console.log(`How are you ${name} ${lastName}`);
+}
+
+greeting("Matthew",'Powell');
+
+
+// Calculating a value
+function square(number) {
+  // return this value to who every is calling this function
+ return number * number
+}
+console.log(square(2))
+
+// let oname = prompt("What is your name?");
+// let oage = prompt("What is your age?");
+
+// console.log(`Hello, ${oname}. You are ${oage} years old!`);
+
+
+
+// let newPromise = new Promise()
